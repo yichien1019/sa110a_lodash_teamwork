@@ -1,4 +1,4 @@
-export function pullall(list:any[], rem:any[]) {
+export function pullAll(list:any[], rem:any[]) {
     var n = arguments.length;
     if(n <= 1) return arguments;
     for(let i = 0; i < list.length; i++){
